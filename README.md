@@ -14,13 +14,12 @@ If using XAMPP the link is: https://www.apachefriends.org/
 
 3.) Move the "wordpress" database into the myql data folder (default: C:\xampp\mysql\data)
 
-To Check to see if MySQL is set up correctly, open XAMPP control panel, click the open the MySQL Admin panel (localhost/phpmyadmin)
-On the listing of databases on the left, you should see "wordpress"
-Click it, then click on "privileges" on the top menu.
-There should be a user with the attributes of: "wordpress, localhost, global, ALL PRIVLEGES, Yes"
-If not, add a new user account named "wordpress" with the host name "localhost" password of "wordpresspass", and check the "Check all" under Global Privileges.
-Press the "Go" button at the bottom to create this account.
+4.) Open XAMPP control panel, start MySQL, and open MySQL Admin panel (or direct web browser address to localhost/phpmyadmin)
 
-4.) Run Apache and MySQL (if already being run, stop and restart both services)
+5.) On the listing of databases on the left, click on "wordpress" and then "privileges" on the top menu.
+
+6.) Create a new user account named "wordpress" with the host name "localhost" password of "wordpresspass", and check the "Check all" under Global Privileges. Press the "Go" button at the bottom to create this account.
+
+4.) Re-run Apache and MySQL (stop and then start both services)
 
 5.) Point web browser to address (in this case "localhost/pantherhackers")
